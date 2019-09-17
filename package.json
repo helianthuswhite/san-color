@@ -1,0 +1,39 @@
+{
+  "name": "san-color",
+  "version": "1.0.0",
+  "description": "A Collection of Color Pickers from Sketch, Photoshop, Chrome & more",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c rollup.config.js --environment BUILD:prod",
+    "dev": "rollup -c -w rollup.config.js --environment BUILD:dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/helianthuswhite/san-color.git"
+  },
+  "author": "helianthuswhite",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/helianthuswhite/san-color/issues"
+  },
+  "homepage": "https://github.com/helianthuswhite/san-color#readme",
+  "dependencies": {
+    "lodash.debounce": "^4.0.8",
+    "tinycolor2": "^1.4.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.6.0",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "postcss": "^7.0.18",
+    "rollup": "^1.21.2",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-less": "^1.1.2",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-serve": "^1.0.1",
+    "rollup-plugin-uglify": "^6.0.3",
+    "san": "^3.7.8"
+  }
+}

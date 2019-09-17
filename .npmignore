@@ -1,0 +1,15 @@
+test
+demo
+docs
+website
+example
+coverage
+build
+node_modules
+.babelrc
+.editorconfig
+.eslintrc.js
+jest.config.js
+.travis.yml
+.gitignore
+.npmignore

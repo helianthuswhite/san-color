@@ -1,0 +1,91 @@
+.san-color-sketch {
+    position: relative;
+    width: 200px;
+    padding: 10px 10px;
+    box-sizing: initial;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.15), 0 8px 16px rgba(0,0,0,.15);
+
+    .saturation-wrap {
+        width: 100%;
+        padding-bottom: 75%;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .hue-alpha-wrap {
+        position: relative;
+
+        .left-box {
+            margin-right: 30px;
+
+            > div {
+                position: relative;
+                height: 10px;
+                margin-top: 5px;
+            }
+        }
+
+        .right-box {
+            position: absolute;
+            right: 0;
+            top: 0;
+            border-radius: 2px;
+            width: 25px;
+            height: 25px;
+        }
+    }
+
+    .edit-wrap {
+        display: flex;
+        margin: 5px 0 5px;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 5px;
+
+        .input-container {
+            margin-right: 5px;
+
+            &:last-child {
+                margin: 0;
+            }
+
+            input {
+                width: 30px;
+                box-sizing: border-box;
+            }
+
+            &:first-child input {
+                width: 60px;
+            }
+
+            span {
+                display: inline-block;
+                width: 100%;
+                font-size: 13px;
+                text-align: center;
+                color: #333;
+            }
+        }
+    }
+
+    .default-wrap {
+        display: flex;
+        flex-wrap: wrap;
+
+        .default-color {
+            cursor: pointer;
+            border-radius: 2px;
+            width: 20px;
+            height: 20px;
+            margin: 5px 5px 0 0;
+            box-shadow: inset 0 0 0 1px rgba(0,0,0,.15);
+
+            &:last-child {
+                margin-right: 0;
+                background-size: contain;
+                background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAMElEQVQ4T2N89uzZfwY8QFJSEp80A+OoAcMiDP7//483HTx//hx/Ohg1gIFx6IcBALl+VXknOCvFAAAAAElFTkSuQmCC");
+            }
+        }
+    }
+}

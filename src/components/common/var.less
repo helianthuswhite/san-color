@@ -1,0 +1,34 @@
+.absolute-box() {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.alpha-background() {
+    border-radius: 2px;
+    background-size: contain;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAMElEQVQ4T2N89uzZfwY8QFJSEp80A+OoAcMiDP7//483HTx//hx/Ohg1gIFx6IcBALl+VXknOCvFAAAAAElFTkSuQmCC");
+}
+
+.rect-pointer() {
+    position: absolute;
+    cursor: pointer;
+    margin-top: 1px;
+    width: 4px;
+    border-radius: 1px;
+    height: 8px;
+    box-shadow: 0 0 2px rgba(0,0,0,.6);
+    background: #fff;
+    transform: translateX(-2px);
+}
+
+.circle-pointer() {
+    cursor: pointer;
+    position: absolute;
+    box-shadow: 0 0 0 1.5px #fff, inset 0 0 1px 1px rgba(0,0,0,.3), 0 0 1px 2px rgba(0,0,0,.4);
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+}
