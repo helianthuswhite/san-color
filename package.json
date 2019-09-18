@@ -2,7 +2,7 @@
   "name": "san-color",
   "version": "1.0.0",
   "description": "A Collection of Color Pickers from Sketch, Photoshop, Chrome & more",
-  "main": "index.js",
+  "main": "dist/san-color.js",
   "scripts": {
     "build": "rollup -c rollup.config.js --environment BUILD:prod",
     "dev": "rollup -c -w rollup.config.js --environment BUILD:dev"

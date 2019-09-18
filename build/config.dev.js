@@ -8,7 +8,7 @@ export default {
     input: 'example/main.js',
     output: {
         name: 'index',
-        file: 'dist/index.js',
+        file: 'dist/example.js',
         format: 'iife',
         globals: {
             'san': 'san',

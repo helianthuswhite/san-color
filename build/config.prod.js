@@ -28,8 +28,5 @@ export default {
         commonjs(),
         uglify()
     ],
-    external: ['san'],
-    globals: {
-        'san': 'san'
-    }
+    external: ['san']
 };
