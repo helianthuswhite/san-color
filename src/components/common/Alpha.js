@@ -57,15 +57,15 @@ export default class extends Component {
     }
 
     onMouseDown() {
-        window.addEventListener('mousemove', this.eventHandler);
-        window.addEventListener('mouseup', this.eventHandler);
-        window.addEventListener('mouseup', this.clearHanlder);
+        this.el.addEventListener('mousemove', this.eventHandler);
+        this.el.addEventListener('mouseup', this.eventHandler);
+        this.el.addEventListener('mouseup', this.clearHanlder);
     }
 
     onMouseUp() {
-        window.removeEventListener('mousemove', this.eventHandler);
-        window.removeEventListener('mouseup', this.eventHandler);
-        window.removeEventListener('mouseup', this.clearHanlder);
+        this.el.removeEventListener('mousemove', this.eventHandler);
+        this.el.removeEventListener('mouseup', this.eventHandler);
+        this.el.removeEventListener('mouseup', this.clearHanlder);
     }
 
 }
